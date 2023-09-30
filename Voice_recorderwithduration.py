@@ -7,7 +7,7 @@ import numpy as np
 freq=44100
 #Recording Duration
 #Any duration in Seconds can be given 
-duration=10 #duration for 10 sec given 
+duration=10  
 #Start recorder with the given values 
 #of duration and the sample frequency 
 recording = sd.rec(int(duration * freq), samplerate=freq, channels=2)
