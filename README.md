@@ -9,6 +9,7 @@ Created a GUI based Voice recorder using tkinter Library in python
 ## Authors
 
 - [@Saumyasehgal](https://www.github.com/octokatherine)
+- [@Pulkitkumar08](https://www.github.com/octokatherine)
 
 
 ## Installation
