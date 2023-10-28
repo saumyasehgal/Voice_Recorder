@@ -13,15 +13,15 @@ def audio_callback(indata, frames, time, status):
     if status:
         print(status, file=sys.stderr)
     recorded_data.append(indata.copy())
-
+#start recording
 def start_recording():
     with sd.InputStream(callback=audio_callback, channels=2, samplerate=fs):
         print("Recording Started")
         input("Press 2 to stop recording : ")
-
+#stop recording 
 def stop_recording():
     print("Recording stopped.")
-
+#play recorded audio
 def play_recorded_audio():
     if recorded_data:
         print("Playing the recorded audio...")
